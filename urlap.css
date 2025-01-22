@@ -1,0 +1,48 @@
+form{
+    max-width: 500px;
+    margin: auto;
+}
+form fieldset{
+    padding: 15px;
+    margin: 15px;
+}
+
+form .ren_eler{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+form .ren_eler label{
+    text-align: right;
+    padding: 10px;
+} 
+form .rendeles{
+
+}
+form .rendeles label{
+    text-align: right;
+    padding: 10px;
+}
+@media screen and (max-width:250px) {
+
+    form{
+        max-width: 100%;
+    
+    }
+    form .ren_eler{
+    grid-template-columns: 1fr;
+}
+form .ren_eler label{
+    text-align: left;
+    padding-top: 15px;
+}
+}
+header{
+    text-align: center
+}
+form .velemeny{
+    padding: 15px;
+    margin: auto;
+}
+main{
+    background-image: url(kepek/hatter.jpg);
+}
