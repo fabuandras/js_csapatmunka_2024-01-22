@@ -20,6 +20,8 @@ main {
 }
 
 form {
+    border-radius: 10px;
+    background-color: bisque;
     color: green;
     font-weight: bolder;
     max-width: 500px;
@@ -62,6 +64,10 @@ form .rendeles label {
 }
 
 header {
+    margin-left: 200px;
+    margin-right: 200px;
+    align-content: center;
+    background-color: bisque;
     color: green;
     border-radius: 10px;
     font-weight: bolder;
