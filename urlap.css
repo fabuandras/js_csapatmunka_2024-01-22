@@ -11,6 +11,7 @@ body {
 }
 
 main {
+    background-image: url(kepek/etlap-hatter.png);
     width: 90%;
     max-width: 900px;
     margin: auto;
@@ -19,6 +20,10 @@ main {
 }
 
 form {
+    border-radius: 10px;
+    background-color: bisque;
+    color: green;
+    font-weight: bolder;
     max-width: 500px;
     margin: auto;
 }
@@ -59,10 +64,21 @@ form .rendeles label {
 }
 
 header {
+    margin-left: 200px;
+    margin-right: 200px;
+    align-content: center;
+    background-color: bisque;
+    color: green;
+    border-radius: 10px;
+    font-weight: bolder;
     text-align: center
 }
 
 form .velemeny {
     padding: 15px;
     margin: auto;
+}
+article{ 
+    border-radius: 10px;
+     ;
 }
