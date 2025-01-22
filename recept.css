@@ -26,12 +26,20 @@ h1 {
 }
 
 /* Menü kialakítása */
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-right: 40px;
+    gap: 20px
+}
+
 nav li {
     list-style-type: none;
-    border: 1px solid white;
+    text-align: center;
+    border: 1px solid black;
     border-radius: 5px;
-    background-color: brown;
-    padding: 5px
+    padding: 5px;
 }
 
 nav li a {
@@ -41,4 +49,56 @@ nav li a {
 
 img {
     width: 100px;
+}
+
+/* Oldalalakítás */
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    "h h"
+    "n n"
+    "ar as"
+    "f f";
+}
+
+header {
+    grid-area: h;
+}
+
+nav {
+    grid-area: n;
+}
+
+aside {
+    grid-area: as;
+}
+
+article {
+    grid-area: ar;
+}
+
+footer {
+    grid-area: f;
+}
+
+/* Mobilnézet: 700px */
+
+@media screen and (max-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "h"
+        "n"
+        "as"
+        "ar"
+        "f";
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
