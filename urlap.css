@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("kepek/hatter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
