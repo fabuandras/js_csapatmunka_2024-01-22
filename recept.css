@@ -30,12 +30,13 @@ nav li {
     list-style-type: none;
     border: 1px solid white;
     border-radius: 5px;
-    
+    background-color: brown;
+    padding: 5px
 }
 
 nav li a {
     text-decoration: none;
-    color: white;
+    color: burlywood;
 }
 
 img {
